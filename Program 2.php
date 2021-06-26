@@ -1,23 +1,39 @@
-< html>
-<head>
-<title>Factorial of a Number</title>
-</head>
-<body>
-<form class="" action="phpcycle1_2.php" method="post">
-<label for="num">Enter a Number</label>
-<input type="text" id="num" name="num" required>
-<input type="submit" name="" value="Submit">
-</form>
-</body>
-</html>
-<?php
-if($_POST)
-{
-$fact=1;
-$num=$_POST['num'];
-for($x=$num;$x>=1;$x--)
-$fact=$fact*$x;
-echo "Factorail of $num= $fact";
-}
+<html>  
+<head>  
+<title>Off And On</title>  
+</head>  
+<body> <script>  
+function light(sw){ var  
+pic; if(sw==0)  
+{  
+ pic="https://cdn3.vectorstock.com/i/1000x1000/89/72/object-bulb-off vector1858972.jpg";  
+}  
+else  
+{  
+ pic="https://cdn4.vectorstock.com/i/1000x1000/26/28/light-bulb-on whitebackground-vector-3872628.jpg";  
 
-?>
+}  
+document.getElementById("img1").src=pic;  
+}  
+  
+</script>  
+<img id="img1" src="https://cdn3.vectorstock.com/i/1000x1000/89/72/object bulboffvector-1858972.jpg" width="100" height="180">  
+<p> 
+<button type="button" onclick="light(1)">lighton</button>  
+<button type="button" onclick="light(0)">lightofff</button>  
+</p>  
+</body>  
+</html>  
+
+
+
+
+
+
+
+
+
+
+
+
+
