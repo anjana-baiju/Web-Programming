@@ -1,0 +1,31 @@
+
+h1{
+color: Brown;
+text-align: center;
+background-color: YellowGreen;
+}
+p{
+color:SlateBlue;
+background-color:Tan;
+}
+#para1{
+color:black;
+background-color: Plum;
+
+}
+
+*{
+font-family: Verdana;
+
+background-color:PapayaWhip;
+}
+.para2{
+color: Tomato;
+background-color:SkyBlue;
+}
+u,b{
+color:SlateGrey;
+background-color:PaleGoldenRod;
+}
+
+
